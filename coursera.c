@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+#define N 40
 
 void sum(int*p, int n, int d[])
 
@@ -24,16 +24,17 @@ int main()
     
     int accum = 0;
     
-    int data[n];
+    int data[N];
     
     for(i = 0; i < N; ++i)
     
-        data[i] = i
-        
-    sum(, N, data);
+        data[i] = i;
+
+     
+    sum(&accum, N, data);
     
     printf("sum is \n", accum);
     
-    return 0
+    return 0;
     
 }
