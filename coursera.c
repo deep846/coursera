@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+
+
+void sum(int*p, int n, int d[])
+
+{
+
+    int i;
+    
+    *p = 0;
+    
+    for(i = 0; i < n; ++i)
+    
+        *p = *p + d[i];
+        
+}
+
+int main()
+
+{
+
+    int i;
+    
+    int accum = 0;
+    
+    int data[n];
+    
+    for(i = 0; i < N; ++i)
+    
+        data[i] = i
+        
+    sum(, N, data);
+    
+    printf("sum is \n", accum);
+    
+    return 0
+    
+}
